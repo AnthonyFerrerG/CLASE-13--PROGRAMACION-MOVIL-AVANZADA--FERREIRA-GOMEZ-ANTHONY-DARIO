@@ -1,0 +1,25 @@
+package com.example.recyclerviewapp;
+
+public class Alumno {
+    private String nombre;
+    private String carrera;
+    private int foto; // ID del recurso drawable
+
+    public Alumno(String nombre, String carrera, int foto) {
+        this.nombre = nombre;
+        this.carrera = carrera;
+        this.foto = foto;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getCarrera() {
+        return carrera;
+    }
+
+    public int getFoto() {
+        return foto;
+    }
+}
